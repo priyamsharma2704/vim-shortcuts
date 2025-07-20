@@ -4,10 +4,12 @@ V(or Shift + v) : select the whole line
 Ctrl + v : visual block mode
 
 ---Movement---
-w : moves forward to begining of each word
-b : moves back to begining of each word
+w : moves forward to beginning of each word
+b : moves back to beginning of each word
 e: moves forward to end of the each word
-
+0: move to the start of a line
+$: move to the end of a line
+^: jump to the first non-blank character of the line
 
 ---Cut/Copy/Paste---
 y: yank(copy) to register
@@ -22,9 +24,16 @@ yiw: copies the current word
 n : to move to next highlighted search item
 Shift + n : to go to previous item
 
----Naviagtion---
-g: goto menu
+---Navigation---
+g: go to menu
 g + g : go to top of the file
 G : go to end of the file
 g + l : go the end of the current line
 g + d : definition of the current selected item
+
+
+---Insert Mode---
+i - insert before the cursor
+a - insert (append) after the cursor
+I - insert at the beginning of the line
+A - insert (append) at the end of the line
